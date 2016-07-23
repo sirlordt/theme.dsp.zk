@@ -1,0 +1,52 @@
+<?link rel="stylesheet" type="text/css" href="css/window.css.dsp"?>
+<?link rel="stylesheet" type="text/css" href="css/button.css.dsp"?>
+<?link rel="stylesheet" type="text/css" href="css/combobox.css.dsp"?>
+<?link rel="stylesheet" type="text/css" href="css/listbox.css.dsp"?>
+<zk>
+<window id="win" title="dark theme" border="normal">
+	<vlayout>
+		<label id="lbl" value="Label: CSS3 Dark Theme" />
+		<button label="Button" mold="os"/>
+		<combobox value="Combobox">
+			<comboitem label="Simple and Rich"/>
+			<comboitem label="Cool!"/>
+			<comboitem label="Ajax and RIA"/>
+		</combobox>
+		<listbox id="box1">
+			<listhead sizable="true">
+				<listheader label="name" />
+				<listheader label="gender" sort="auto" />
+			</listhead>
+			<listgroup label="Person"/>
+			<listitem>
+				<listcell label="Mary" />
+				<listcell label="FEMALE" />
+			</listitem>
+			<listitem>
+				<listcell label="John" />
+				<listcell label="MALE" />
+			</listitem>
+			<listitem>
+				<listcell label="John" />
+				<listcell label="MALE" />
+			</listitem>
+			<listitem>
+				<listcell label="John" />
+				<listcell label="MALE" />
+			</listitem>
+			<listgroupfoot>
+				<listcell span="2" label="Total 4 persons"/>
+			</listgroupfoot>
+			<listfoot>
+				<listfooter>
+					<label value="This is footer1" />
+				</listfooter>
+				<listfooter>
+					<label value="This is footer2" />
+				</listfooter>
+			</listfoot>
+		</listbox>
+	</vlayout>
+</window>
+<a href="index.zul">back</a>
+</zk>

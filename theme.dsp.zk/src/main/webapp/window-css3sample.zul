@@ -1,0 +1,16 @@
+<?link rel="stylesheet" type="text/css" href="css/window.css.dsp"?>
+<?link rel="stylesheet" type="text/css" href="css/button.css.dsp"?>
+<zk>
+	<window id="win" title="Hello World!!" width="800px" height="600px" border="normal" minimizable="true" maximizable="true" closable="true" sizable="true">
+		<vlayout>
+			<label id="lbl" value="CSS3 Window aVeryLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongWord" />
+			<button label="Change to Modal mode" mold="os" onClick="win.doModal();"/>
+			<button label="Change to Overlapped mode" onClick='win.doOverlapped();' />
+			<button label="Change to Highlighted mode" onClick='win.doHighlighted();' />
+			<button label="Change to Popup mode" onClick='win.doPopup();' />
+			<button label="Back to Embedded mode" onClick='win.doEmbedded();' />
+			<window title="inner window" width="200px" height="200px" border="normal">Inner Window</window>
+			<button label="Back to home" onClick='execution.sendRedirect("index.zul")' />
+		</vlayout>
+	</window>
+</zk>

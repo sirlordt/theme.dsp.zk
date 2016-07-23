@@ -1,0 +1,27 @@
+<?link rel="stylesheet" type="text/css" href="css/combobox.css.dsp"?>
+<zk>
+	<vlayout>
+		<separator spacing="2px"/>
+		Default Mold
+		<combobox>
+			<comboitem label="Simple and Rich"/>
+			<comboitem label="Cool!"/>
+			<comboitem label="Ajax and RIA"/>
+		</combobox>
+		<separator spacing="2px"/>
+		Default Mold: read-only
+		<combobox readonly="true">
+			<comboitem label="Simple and Rich"/>
+			<comboitem label="Cool!"/>
+			<comboitem label="Ajax and RIA"/>
+		</combobox>
+		<separator spacing="2px"/>
+		Default Mold: disabled
+		<combobox disabled="true">
+			<comboitem label="Simple and Rich"/>
+			<comboitem label="Cool!"/>
+			<comboitem label="Ajax and RIA"/>
+		</combobox>
+		<a href="index.zul">back</a>
+	</vlayout>
+</zk>

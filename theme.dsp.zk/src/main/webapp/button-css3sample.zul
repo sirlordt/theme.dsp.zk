@@ -1,0 +1,10 @@
+<?link rel="stylesheet" type="text/css" href="css/button.css.dsp"?>
+<zk>
+	<vlayout>
+		<separator spacing="1px" />
+		<button label="os mold" mold="os" width="200px" height="50px"/>
+		<separator spacing="1px" />
+		<button label="os mold disabled" mold="os" width="200px" height="50px" disabled="true" />
+		<a href="index.zul">back</a>
+	</vlayout>
+</zk>
