@@ -13,8 +13,8 @@
       <packname>-${project.version}-FL-${maven.build.timestamp}</packname>
    </properties>
    <packaging>war</packaging>
-   <name>The MapZK8 Project</name>
-   <description>The MapZK8 Project</description>
+   <name>The DSP theme look and feel project</name>
+   <description>The DSP theme look and feel project</description>
    <licenses>
       <license>
          <name>GNU LESSER GENERAL PUBLIC LICENSE, Version 3</name>
@@ -132,7 +132,7 @@
               </systemProperty>
              </systemProperties>
              <webAppConfig>
-               <contextPath>/bootstrapzk</contextPath>
+               <contextPath>/themedspzk</contextPath>
              </webAppConfig>
             </configuration>
            <executions>
